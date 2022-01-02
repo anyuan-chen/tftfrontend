@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Eina;
+  src: local("Eina01-SemiBold");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Eina;
+  src: local("Eina01-Bold");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Eina;
+  src: local("Eina01-Regular");
+  font-weight: 400;
 }
